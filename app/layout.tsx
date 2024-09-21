@@ -3,6 +3,7 @@ import "./globals.css";
 import DeployButton from "@/components/deploy-button";
 import { EnvVarWarning } from "@/components/env-var-warning";
 import HeaderAuth from "@/components/header-auth";
+import { ThemeSwitcher } from "@/components/theme-switcher";
 import { hasEnvVars } from "@/lib/supabase/check-env-vars";
 import { Link } from "lucide-react";
 import { ThemeProvider } from "next-themes";
